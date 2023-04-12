@@ -1,0 +1,15 @@
+Sales:
+  formula: "UnitPrice * (1 - DiscountApplied) * OrderQuantity"
+
+Revenue: 
+  formula: "(UnitPrice * (1 - DiscountApplied) - UnitCost) * OrderQuantity"
+  model_path: 
+    forest: "models/forest.pkl"
+    linear: "models/linear.pkl"
+  knowledge_path: "knowledges/revenue.pkl"
+
+DeliverSpeed:
+  formula: "DeliveryDate - OrderDate"
+
+ShippingSpeed:
+  formula: "DeliveryDate - ShipDate"
