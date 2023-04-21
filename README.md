@@ -6,6 +6,8 @@ Youtube Link: [https://youtu.be/wmzXyUYGWKg](https://youtu.be/wmzXyUYGWKg)
 
 <br>
 
+* 2023.04.21 We're currently preparing changing API Server with FastAPI, user chatting context log with REDIS server, and multiple database support.
+
 # Prerequisite
 
 ## Package Installation 
